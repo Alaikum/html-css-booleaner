@@ -1,3 +1,9 @@
+/* body{
+    width: 1100px;
+} */
+ /* da decidere se impostare una larghezza  massima */
+
+
 .intestazione {
     background-image: url(../img/pattern.png);
     background-color: lightskyblue;
@@ -12,8 +18,9 @@
     margin-bottom: 0;
 }
 
-.margini0{
+.autore{
     margin: 0%;
+    color: gray;
 }
 
 #scrittore{
@@ -23,4 +30,17 @@
 
 .data{
     font-size: 10px;
+}
+
+.fonti{
+    margin: 0;
+    font-size: 12px;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+ul{
+    padding-left: 15px;
 }
