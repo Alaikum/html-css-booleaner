@@ -1,3 +1,8 @@
-body{
-    background-color: crimson;
+.intestazione {
+    background-image: url(../img/pattern.png);
+    background-color: lightskyblue;
+    background-size: 25%;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    ;
 }
