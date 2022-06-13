@@ -1,0 +1,105 @@
+ main {
+   
+    padding-left: 25%;
+    padding-right: 25%;
+   
+} 
+footer{
+    padding-left: 35%;
+    
+}
+body{
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.intestazione {
+    background-image: url(../img/pattern.png);
+    background-color: lightskyblue;
+    background-size: 25%;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    
+    ;
+}
+
+#titolo {
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+.grigio {
+    margin: 0%;
+    color: gray;
+}
+
+#scrittore {
+    color: blue;
+
+}
+
+.data {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.fonti {
+    margin: 0;
+    font-size: 12px;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+ul {
+    padding-left: 15px;
+}
+
+.riga0 {
+    background-color: lightskyblue;
+    text-align: left;
+    color: white;
+
+
+}
+
+.rigablu {
+    background-color: aqua;
+
+}
+table{
+    border-collapse: collapse;
+}
+
+.spazio {
+    padding-right: 100px;
+    
+    
+   
+}
+
+.monitor{
+    /* la grandezza è quella della foto diviso2 */
+    width: 156px;
+    height: 104px;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+.graph{
+    /* gli ho messo la stessa grandezza di .monitor */
+    width: 156px;
+    height: 104px;
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    left: 156px;
+    bottom: 120px;
+}
