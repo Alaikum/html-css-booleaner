@@ -6,3 +6,21 @@
     padding-top: 40px;
     ;
 }
+
+#titolo{
+    font-size: 75px;
+    margin-bottom: 0;
+}
+
+.margini0{
+    margin: 0%;
+}
+
+#scrittore{
+    color: blue;
+
+}
+
+.data{
+    font-size: 10px;
+}
