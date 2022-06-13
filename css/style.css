@@ -18,7 +18,7 @@
     margin-bottom: 0;
 }
 
-.autore {
+.grigio {
     margin: 0%;
     color: gray;
 }
@@ -30,6 +30,7 @@
 
 .data {
     font-size: 10px;
+    margin-bottom: 10px;
 }
 
 .fonti {
@@ -60,5 +61,27 @@ ul {
 
 .spazio {
     padding-right: 100px;
+    
+    
    
+}
+
+.monitor{
+    /* la grandezza è quella della foto diviso2 */
+    width: 156px;
+    height: 104px;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.graph{
+    /* gli ho messo la stessa grandezza di .monitor */
+    width: 156px;
+    height: 104px;
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
 }
